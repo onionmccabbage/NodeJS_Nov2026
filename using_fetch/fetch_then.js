@@ -6,7 +6,7 @@
 // JSON JavaScript Object Notation
 
 const fetchSwapiData = ()=>{
-    url = `https://swapi.dev/api/peope/1`
+    const url = `https://swapi.dev/api/peope/1`
     return fetch(url) // fetch lets us grab data from the internet
     // wait until the above line completes
     .then( (d)=>{
