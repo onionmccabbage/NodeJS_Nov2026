@@ -7,7 +7,7 @@ November 9-11 2026
 * 9:30 start
 * 11:00 coffee until 11:15
 * 12:30 lunch until 1:30
-* 3:00 Tea
+* 3:00 Tea until 3:15
 * 4:30 end
 
 #### Monday
@@ -17,12 +17,12 @@ November 9-11 2026
 > introducing NodeJS
 > course repo (all my code will be here)
   - https://github.com/onionmccabbage/NodeJS_Nov2026
-* servers and files (microservices)
+> servers and files (microservices)
 - the Node REPL
   - type node in a terminal to start the REPL (end with ctrl-c twice)
   - tab-tab for code help
 * cli
-* review exercise (then show-and-tell)
+> review exercise (then show-and-tell)
 * Make a package.json:
   - nmp init -y makes a default package.json
   - npm init talks us through
