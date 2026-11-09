@@ -9,3 +9,12 @@ export const greet = (name)=>{
 // members of an array are indexed 0,1,2,3,4,5,6 etc.
 export let arr = [4,3,2,1,7,,5,9,3] // NB arrays may be sparse (i.e. gaps)
 
+export default class Daft{
+    // do precisely nothing
+}
+
+// an alternative syntax
+function fn(){
+    return 'this works too'
+}
+export {fn} // this will be availabel for import
