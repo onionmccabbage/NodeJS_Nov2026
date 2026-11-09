@@ -7,10 +7,14 @@ const fetchSwapiModern = async ()=>{
     const url = `https://swapi.dev/api/species/3` // this API will return JSON 
     try {
         const response = await fetch(url) // async and await are ALWAYS used together
-        return response // this is tidier than .then( ()=>{} )
+        return response.json() // this is tidier than .then( ()=>{} )
     }
     catch(err){
         console.error(err)
+    }
+    finally {
+        // this is a good place to carry out tidy-up operations
+        console.log('if there is a finally block, it will run in all cases')
     }
 }
 
