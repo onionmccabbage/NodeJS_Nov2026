@@ -21,7 +21,7 @@ November 9-11 2026
 > the Node REPL
   - type node in a terminal to start the REPL (end with ctrl-c twice)
   - tab-tab for code help
-* cli
+> cli
 > review exercise (then show-and-tell)
 * Make a package.json:
   - nmp init -y makes a default package.json
@@ -31,7 +31,7 @@ November 9-11 2026
 
 #### Tuesday
 * quick summary of where we're at
-* the fetch API (and latest developments within Node)
+> the fetch API (and latest developments within Node)
 * async-await and promises
   - https://rxjsmarbles.dev show examples of combining streams
   - `streams are arrays over time`
