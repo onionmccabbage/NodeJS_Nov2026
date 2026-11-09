@@ -18,7 +18,7 @@ November 9-11 2026
 > course repo (all my code will be here)
   - https://github.com/onionmccabbage/NodeJS_Nov2026
 > servers and files (microservices)
-- the Node REPL
+> the Node REPL
   - type node in a terminal to start the REPL (end with ctrl-c twice)
   - tab-tab for code help
 * cli
