@@ -11,11 +11,11 @@ November 9-11 2026
 * 4:30 end
 
 #### Monday
-* welcome and tech-check
-* overview of the course, exercises etc.
-* visual studio code: pick a folder, and open it with vsc
-* introducing NodeJS
-* course repo (all my code will be here)
+> welcome and tech-check
+> overview of the course, exercises etc.
+> visual studio code: pick a folder, and open it with vsc
+> introducing NodeJS
+> course repo (all my code will be here)
   - https://github.com/onionmccabbage/NodeJS_Nov2026
 * servers and files (microservices)
 - the Node REPL
