@@ -9,12 +9,19 @@
 // Promises are 'thenable' ( we can say .then( ()=>{} ) )
 const fetchSwapiData = ()=>{
     const url = `https://swapi.dev/api/people/1`
+
     return fetch(url) // fetch lets us grab data from the internet
     // wait until the above line completes
     .then( (d)=>{
         // for this API we will receive JSON data
         return d.json() // this will take some time to retrieve
     } ) // this callback will only run when the fetch has completed
+    // when we are dealing with data outside of our code
+    // it is always good to handle potential errors
+    .catch( (e)=>{
+        console.error(e) // show any problems here
+    } )
+
 }
 
 // we need to invoke our function

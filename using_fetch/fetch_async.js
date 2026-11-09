@@ -5,8 +5,13 @@
 // we may declare any function to be asynchronous
 const fetchSwapiModern = async ()=>{
     const url = `https://swapi.dev/api/species/3` // this API will return JSON 
-    const response = await fetch(url) // async and await are ALWAYS used together
-    return response // this is tidier than .then( ()=>{} )
+    try {
+        const response = await fetch(url) // async and await are ALWAYS used together
+        return response // this is tidier than .then( ()=>{} )
+    }
+    catch(err){
+        console.error(err)
+    }
 }
 
 // we then invoke our function like this
