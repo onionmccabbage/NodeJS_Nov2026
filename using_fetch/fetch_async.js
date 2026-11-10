@@ -31,6 +31,8 @@ const fetchSwapiModern = async (category='species', id=3)=>{
 if (argv.length >2){ // we ignore member 0 and member 1
     let cat = argv[2]
     let id = argv[3]
-    const species_3 = await fetchSwapiModern(cat, id)
-    console.log(species_3)
+    const result = await fetchSwapiModern(cat, id)
+    console.log(result)
+    // console.log(species_3.people[1])
+    console.log(result['name'])
 }
