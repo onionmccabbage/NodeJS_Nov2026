@@ -17,4 +17,4 @@ export default class Daft{
 function fn(){
     return 'this works too'
 }
-export {fn} // this will be availabel for import
+export {fn} // this will be available for import

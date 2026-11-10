@@ -4,6 +4,11 @@ import { greet, arr } from "./util.mjs";
 import Daft from "./util.mjs";
 import { fn } from "./util.mjs";
 
+// we may also import from 'other' module
+import fnX from './other.js'
+
+console.log( fnX.fnZ() )
+// fnX() // does nothing
 
 // we can use any imported code
 console.log( arr, greet('Maigrette'), fn() )
