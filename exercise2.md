@@ -1,6 +1,6 @@
 ## Exercise 2: Fetch with Promises
 
-#### 50 mins
+#### 50 mins (until 2:50)
 
 Write a simple Node app that fetches information from the public swapi API and then fetches further data, based on the initial fetch.
 
