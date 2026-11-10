@@ -36,7 +36,7 @@ November 9-11 2026
   - https://rxjsmarbles.dev show examples of combining streams
   - `streams are arrays over time`
 > modules, package.json and npm
-> NB npm is the original, but yarn etc. ae also available
+> NB npm is the original, but yarn etc. are also available
 * sync and async
 > ways to import and export: import nnn, or import {nnn}
 * architecture best/common practices

@@ -17,9 +17,14 @@ fs.readFile('./callbacks/news.json', 'utf8', (err, data)=>{
         // console.log(data)
         let j = data
         // we must wait for the file load operation to complete
-        console.log(j, typeof(j))
+        console.log(j, typeof(j)) // string
         let k = JSON.parse(j) // convert JSON text to ES structures
-        console.log(k, typeof(k))
+        console.log(k, typeof(k)) // object
+        let l = JSON.stringify(k)
+        console.log(l, typeof(l)) // string
+        // we may grab parts of the object
+        // console.log( k[0].headline )
+        console.log( k[0]['headline'] )
     } )
     // fs.readfile does NOT return a Promise, so it is not thenable
     // .then( (data)=>{return data} )
