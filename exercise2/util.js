@@ -1,4 +1,4 @@
-import { argv, exitCode } from 'node:process'
+import { argv } from 'node:process'
 
 export const getRandomInt = (max) => {
     // see if an integer has been provided as a system argument variable

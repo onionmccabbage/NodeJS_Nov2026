@@ -46,10 +46,10 @@ November 9-11 2026
   * in Chrome tab: chrome://inspect
   * then find the app and enjoy
   * also add a script in package.json
-* review exercise (inc debug)
+> review exercise (inc debug)
 * EventEmitter
 * dev/prod and tool-chains
-* write scripts in package.json to "debug": "node --inspect-brk calc.js"
+> write scripts in package.json to "debug": "node --inspect-brk calc.js"
 * unit testing  
   https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
   https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
