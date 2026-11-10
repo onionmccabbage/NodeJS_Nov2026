@@ -40,6 +40,9 @@ November 9-11 2026
 * ways to import and export: import nnn, or import {nnn}
 * architecture best/common practices
 * debugging and Chrome dev tools
+  * node --inspect-brk nnnn.js
+  * in Chrome tab: chrome://inspect
+  * then find the app and enjoy
 * review exercise (inc debug)
 * EventEmitter
 * dev/prod and tool-chains
