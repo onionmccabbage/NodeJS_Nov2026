@@ -41,7 +41,6 @@ November 9-11 2026
 * architecture best/common practices
 * debugging and Chrome dev tools
 * review exercise (inc debug)
-* fetch: the latest...
 * EventEmitter
 * dev/prod and tool-chains
 * write scripts in package.json to "debug": "node --inspect-brk calc.js"
