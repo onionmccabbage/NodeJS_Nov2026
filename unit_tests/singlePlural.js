@@ -5,8 +5,7 @@
  * (2, 'person', 'people') -> people
  */
 export default function getSingleOrPlural (count, singular, plural){
-    if (count<0 || typeof(count) != 'Number'){
-        // console.error('problem')
+    if (count<0 || typeof(count) != 'number'){
         throw new Error('The first parameter needs to be a positive number ')
     }
     if (count == 1){
