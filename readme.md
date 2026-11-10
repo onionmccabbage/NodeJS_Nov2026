@@ -65,6 +65,7 @@ November 9-11 2026
   - dont start with a digit
 
 #### Wednesday
+* resolve testing issue
 * the event loop (also remember sync operations which will block)
 * Node events
 * Web and webpack (briefly)
