@@ -4,8 +4,9 @@
  * (1, 'woman', 'women') -> woman
  * (2, 'person', 'people') -> people
  */
-export default getSingleOrPlural = (count, singular, plural)=>{
-    if (count<0 || count != 'number'){
+export default function getSingleOrPlural (count, singular, plural){
+    if (count<0 || typeof(count) != 'Number'){
+        // console.error('problem')
         throw new Error('The first parameter needs to be a positive number ')
     }
     if (count == 1){
