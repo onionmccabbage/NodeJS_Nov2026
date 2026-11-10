@@ -10,11 +10,11 @@ let d = {'n':'Floella', 'start':1974, 'award':'MBE'}; // an object object
 
 // read in some JSON
 import fs from 'node:fs' // using ECMAScript Modules (esm)
-let j = fs.readFile('./callbacks/news.json', 'utf8', (err, data)=>{
+let j = fs.readFile('basics.js', 'utf8', (err, data)=>{
         if (err){
             console.error(err)
         }
-        // return data
+        return data
         // we must wait for the file load operation to complete
     } ).then( (data)=>{return data} )
 console.log(j)
