@@ -10,12 +10,16 @@ let d = {'n':'Floella', 'start':1974, 'award':'MBE'}; // an object object
 
 // read in some JSON
 import fs from 'node:fs' // using ECMAScript Modules (esm)
-let j = fs.readFile('basics.js', 'utf8', (err, data)=>{
+fs.readFile('./callbacks/news.json', 'utf8', (err, data)=>{
         if (err){
             console.error(err)
         }
-        return data
+        // console.log(data)
+        let j = data
         // we must wait for the file load operation to complete
-    } ).then( (data)=>{return data} )
-console.log(j)
-// k = JSON.parse() // convert JSON text to ES structures
+        console.log(j, typeof(j))
+        let k = JSON.parse(j) // convert JSON text to ES structures
+        console.log(k, typeof(k))
+    } )
+    // fs.readfile does NOT return a Promise, so it is not thenable
+    // .then( (data)=>{return data} )
