@@ -30,19 +30,20 @@ November 9-11 2026
 * .js, .mjs etc also package.json
 
 #### Tuesday
-* quick summary of where we're at
+> quick summary of where we're at
 > the fetch API (and latest developments within Node)
 * async-await and promises
   - https://rxjsmarbles.dev show examples of combining streams
   - `streams are arrays over time`
-* modules, package.json and npm
+> modules, package.json and npm
 * sync and async
-* ways to import and export: import nnn, or import {nnn}
+> ways to import and export: import nnn, or import {nnn}
 * architecture best/common practices
-* debugging and Chrome dev tools
+> debugging and Chrome dev tools
   * node --inspect-brk nnnn.js
   * in Chrome tab: chrome://inspect
   * then find the app and enjoy
+  * also add a script in package.json
 * review exercise (inc debug)
 * EventEmitter
 * dev/prod and tool-chains
