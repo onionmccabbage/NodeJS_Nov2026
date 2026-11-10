@@ -28,7 +28,7 @@ const fetchSwapiModern = async (category='species', id=3)=>{
 
 // we then invoke our function like this
 // read any system arguments
-if (length(argv)>2){ // we ignore member 0 and member 1
+if (argv.length >2){ // we ignore member 0 and member 1
     let cat = argv[2]
     let id = argv[3]
     const species_3 = await fetchSwapiModern(cat, id)
