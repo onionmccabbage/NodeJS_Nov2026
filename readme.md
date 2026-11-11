@@ -83,3 +83,5 @@ November 9-11 2026
 * ongoing resources: how to keep sharp!
 
 end of course feedback
+
+https://forms.cloud.microsoft/e/fp0adqhZnk
