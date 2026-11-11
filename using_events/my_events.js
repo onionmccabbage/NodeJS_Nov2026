@@ -16,4 +16,11 @@ myEmitter.on('product', multiply)
 myEmitter.emit('welcome', 'Ethel')
 myEmitter.emit('babbage', 3,2)
 myEmitter.emit('subtract', 7,2)
-myEmitter.emit('product', 5,5)
+myEmitter.emit('product', [5,5])
+
+// pseudo code
+// on start, set things up
+// on ready, listen for data
+// on data, validate before...
+// on data, respond with outcomes
+// on outcomes...
