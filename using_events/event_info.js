@@ -12,6 +12,10 @@ class MyEmitter extends EventEmitter{}
 
 const myEmitter = new MyEmitter()
 myEmitter.on('modern', (a, b=2)=>{
+    // = sets equality
+    // == checks equality, === checks identity
+    // 0 == false is correct, they both evaluate to the same outcome
+    // 0 === false is incorrect, they are not fundamentaly the same thing
     console.log(a, b, this, this===myEmitter)
 })
 
@@ -19,5 +23,8 @@ myEmitter.on('modern', (a, b=2)=>{
 myEmitter.on('legacy', function(a,b=2){
     console.log(a, b, this, this===myEmitter)
 })
-// myEmitter.emit('legacy')
+myEmitter.on('legacy', function(a,b=3){
+    console.log(a, b, this, this===myEmitter)
+})
+myEmitter.emit('legacy')
 myEmitter.emit('modern')
