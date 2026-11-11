@@ -39,7 +39,7 @@ November 9-11 2026
 > NB npm is the original, but yarn etc. are also available
 * sync and async
 > ways to import and export: import nnn, or import {nnn}
-* architecture best/common practices
+> architecture best/common practices
 > resolve the readfile for JSON
 > debugging and Chrome dev tools
   * node --inspect-brk nnnn.js
@@ -64,7 +64,7 @@ November 9-11 2026
   - dont start with a digit
 
 #### Wednesday
-* resolve testing issue
+> resolve testing issue
 * EventEmitter
 * the event loop (also remember sync operations which will block)
 * Node events
