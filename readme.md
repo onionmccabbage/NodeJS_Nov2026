@@ -67,7 +67,7 @@ November 9-11 2026
 > resolve testing issue
 * EventEmitter
 * the event loop (also remember sync operations which will block)
-* Node events
+* Node events: immediate and process.nextTick
 * Web and webpack (briefly)
 * Observables see https://rxjs.dev and https://rxmarbles.com/
 * responding to events and handling errors
