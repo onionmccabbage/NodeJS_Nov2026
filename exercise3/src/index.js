@@ -21,11 +21,11 @@ const processRequest = (id) => {
                     // trigger the file logger via a custom event
                     myEv.emit('photosReceived', p)
                 })
-            // .catch( (err)=>{ 
-            //     // skip any other processing and cut to the next Node run-loop iteration
-            //     process.nextTick( ()=>{
-            //         console.error(`Problem: ${err}`)} )
-            //     } )
+            .catch( (err)=>{ 
+                // skip any other processing and cut to the next Node run-loop iteration
+                process.nextTick( ()=>{
+                    console.error(`Problem: ${err}`)} )
+                } )
         }
     }
 }
