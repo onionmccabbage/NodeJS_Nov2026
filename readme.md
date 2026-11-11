@@ -37,7 +37,7 @@ November 9-11 2026
   - `streams are arrays over time`
 > modules, package.json and npm
 > NB npm is the original, but yarn etc. are also available
-* sync and async
+> sync and async
 > ways to import and export: import nnn, or import {nnn}
 > architecture best/common practices
 > resolve the readfile for JSON
@@ -54,12 +54,12 @@ November 9-11 2026
   https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
 > test-driven development and robust coding
 * ES features: classes, rest, fn etc.
-* Typescript is important...
+> Typescript is important...
   - npm install -g tsc // the typescript compiler
   - npm install -g ts-node // to 'run' ts files (actually runs the js file)
   - also see tsconfig.json
   - https://typescriptlang.org
-* Naming assets (files. folder, variables, functions)
+> Naming assets (files. folder, variables, functions)
   - letters, numbers, underscore
   - dont start with a digit
 
@@ -68,17 +68,17 @@ November 9-11 2026
 > EventEmitter
 > the event loop (also remember sync operations which will block)
 > Node events: immediate and process.nextTick
-* Web and webpack (briefly)
-* Observables see https://rxjs.dev and https://rxmarbles.com/
-* responding to events and handling errors
-* features:
+> Web and webpack (briefly)
+> Observables see https://rxjs.dev and https://rxmarbles.com/
+> responding to events and handling errors
+> features:
   - see https://caniuse.com/ and https://compat-table.github.io/compat-table/es6/
-* node version manager and nvmrc (also .nvmrc)
-* the build command
+> node version manager and nvmrc (also .nvmrc)
+> the build command
 * Express.js for convenient server-side features
 * Express architecture: server, index, middleware
-* buffers and streams
-* review exercise (inc. optional testing)
+> buffers and streams
+> review exercise (inc. optional testing)
 * what next...
 * ongoing resources: how to keep sharp!
 
