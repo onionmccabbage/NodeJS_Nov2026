@@ -14,8 +14,10 @@ const myEmitter = new MyEmitter()
 myEmitter.on('modern', (a, b=2)=>{
     console.log(a, b, this, this===myEmitter)
 })
+
+// NB te legacy 'function' keyword treats 'this' operator differently to modern function use
 myEmitter.on('legacy', function(a,b=2){
     console.log(a, b, this, this===myEmitter)
 })
-myEmitter.emit('legacy')
+// myEmitter.emit('legacy')
 myEmitter.emit('modern')
