@@ -81,6 +81,12 @@ November 9-11 2026
 > review exercise (inc. optional testing)
 * what next...
 * ongoing resources: how to keep sharp!
+#### More Resources
+* https://nodejs.org/learn/getting-started/introduction-to-nodejs
+* https://www.geeksforgeeks.org/node-js/nodejs/
+* https://www.javascripttutorial.net/nodejs-tutorial/
+* https://www.learn-js.org/
+* https://www.typescriptlang.org/docs/
 
 end of course feedback
 
