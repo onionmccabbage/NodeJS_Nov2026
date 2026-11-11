@@ -1,9 +1,12 @@
 ## Exercise 3
+
+up to 50 minutes (2:40)
+
 * Consume a REST API and show the results
 * Include parameters when making calls to the API
 * Persist retrieved data as text in a file
 * Implement custom events to manage when things happen
-  * e.g. when some initial data hs been retreived, emit and event to fetch related data
+  * e.g. when some initial data has been retreived, emit and event to fetch related data
   * A custom event could also trigger the file-writing
 * Explore process.nextTick within validation and try/catch block
   * https://nodejs.org/learn/asynchronous-work/event-loop-timers-and-nexttick#processnexttick
