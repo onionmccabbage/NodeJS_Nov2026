@@ -5,6 +5,7 @@
  * (2, 'person', 'people') -> people
  */
 export default function getSingleOrPlural (count, singular, plural){
+    // objects my be Number (Object class) or number (object type)
     if (count<0 || typeof(count) != 'number'){
         throw new Error('The first parameter needs to be a positive number ')
     }
@@ -15,3 +16,6 @@ export default function getSingleOrPlural (count, singular, plural){
         return plural
     }
 }
+
+
+console.log(typeof(1))

@@ -7,7 +7,7 @@ describe('Return singular for one item', () => {
         expect(getSingleOrPlural(1, 'woman', 'women')).to.equal('woman')
     })
 })
-describe('Return plural for morethan one item', () => {
+describe('Return plural for more than one item', () => {
     test('return plural when the count is greater than 1', () => { })
     expect(getSingleOrPlural(3, 'woman', 'women')).to.equal('women')
 })
