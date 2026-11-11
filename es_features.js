@@ -26,3 +26,23 @@ console.log(  fnD(2) ) // 4
     console.log(x, y, z, rest)
 }
 // also spread is available
+function abc(a, b, c) {
+return a + b + c;
+}
+
+console.log(abc(...[1, 2, 3]));
+
+// difference between modern and legacy functions
+const modern = ()=>{
+    return x
+    var y
+    let x // modern function syntax does NOT hoist 'let' variables
+}
+function legacy(){
+    return x // the object 'x' will be 'hoisted' in this function
+    var y
+    let x
+}
+
+console.log(legacy())
+// console.log(modern()) // this will ALWAYS fail

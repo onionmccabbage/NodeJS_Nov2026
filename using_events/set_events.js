@@ -5,7 +5,7 @@ const myEv = new EventEmitter()
 
 function apiCall(arg, callback) {
   if (typeof arg !== 'string') {
-    return process.nextTick(
+    return process.nextTick( // a great idea for validation/sanitizing
       callback2,
       new TypeError('argument should be string')
     );
