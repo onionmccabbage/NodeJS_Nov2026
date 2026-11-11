@@ -1,12 +1,13 @@
 import {EventEmitter} from 'events'
 
-import { greet, goodbye, add, subtract, multiply } from './util'
+import { greet, goodbye, add, subtract, multiply } from './util.js'
 
 // we need an instance of the EventEmitter
 const myEmitter = new EventEmitter()
 
 // listen for an event (we invent names for our event)
 myEmitter.on('welcome', greet)
+myEmitter.on('welcome', goodbye)
 myEmitter.on('babbage', add)
 myEmitter.on('subtract', subtract)
 myEmitter.on('product', multiply)
