@@ -23,16 +23,16 @@ November 9-11 2026
   - tab-tab for code help
 > cli
 > review exercise (then show-and-tell)
-* Make a package.json:
+> Make a package.json:
   - nmp init -y makes a default package.json
   - npm init talks us through
-* Modules: commonJS (require)  and ESM (import)
-* .js, .mjs etc also package.json
+> Modules: commonJS (require)  and ESM (import)
+> .js, .mjs etc also package.json
 
 #### Tuesday
 > quick summary of where we're at
 > the fetch API (and latest developments within Node)
-* async-await and promises
+> async-await and promises
   - https://rxjsmarbles.dev show examples of combining streams
   - `streams are arrays over time`
 > modules, package.json and npm
